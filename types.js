@@ -1,7 +1,13 @@
 var myString;
 var myNum;
 var myBool;
+var myVar;
+var strArr;
+var numArr;
 myString = 'hello from ts i love u';
 myNum = 2;
 myBool = false;
-console.log(myString, myNum, myBool);
+myVar = true;
+strArr = ['hello', 'world'];
+numArr = [1, 2, 3];
+console.log(myString, myNum, myBool, strArr, numArr);
