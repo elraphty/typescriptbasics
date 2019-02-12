@@ -14,3 +14,7 @@ function myVoid(): void {
 } 
 
 console.log(getName('Raphael'));
+
+// simple dom manipulation
+let type = document.getElementById('type');
+type.innerHTML = 'from type script';
