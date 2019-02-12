@@ -1,7 +1,7 @@
 class User {
-  name: string;
-  email: string;
-  age: number;
+  private name: string;
+  private email: string;
+  private age: number;
 
   constructor(name: string, email: string, age: number) {
     this.name = name;
@@ -13,3 +13,5 @@ class User {
 }
 
 let john = new User('Raphael', 'elraphtyofficial@gmail.com', 23);
+
+console.log(john.age);

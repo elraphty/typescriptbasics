@@ -8,3 +8,4 @@ var User = /** @class */ (function () {
     return User;
 }());
 var john = new User('Raphael', 'elraphtyofficial@gmail.com', 23);
+console.log(john.age);
