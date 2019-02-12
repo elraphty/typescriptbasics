@@ -1,7 +1,7 @@
 class User {
-  private name: string;
-  private email: string;
-  private age: number;
+  name: string;
+  email: string;
+  age: number;
 
   constructor(name: string, email: string, age: number) {
     this.name = name;
@@ -10,8 +10,12 @@ class User {
 
     console.log('User created: '+ this.name);
   }
+
+  register() {
+    console.log(this.name + ' is now registered');
+  }
 }
 
 let john = new User('Raphael', 'elraphtyofficial@gmail.com', 23);
 
-console.log(john.age);
+console.log(john.register());
