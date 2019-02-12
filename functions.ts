@@ -6,7 +6,11 @@ console.log(getSum(1, 3));
 
 function getName(firstName: string, lastName?: string):string {
   if(lastName === undefined) return firstName;
-  return firstName + '' + lastName;
+  return firstName + ' ' + lastName;
 }
+
+function myVoid(): void {
+  return;
+} 
 
 console.log(getName('Raphael'));

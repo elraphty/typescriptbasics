@@ -7,4 +7,7 @@ function getName(firstName, lastName) {
         return firstName;
     return firstName + '' + lastName;
 }
+function myVoid() {
+    return;
+}
 console.log(getName('Raphael'));
